@@ -1,0 +1,10 @@
+zendesk.oauth_client edentest {
+  name = "edenTest-audit"
+  identifier = "edentest"
+  company = "Salto"
+  description = ""
+  global = false
+  kind = "unknown"
+  enforce_token_expiration = false
+  _alias = "edenTest-audit"
+}
