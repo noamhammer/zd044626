@@ -7,9 +7,6 @@ zendesk {
     ]
     exclude = [
       {
-        type = "organization"
-      },
-      {
         type = "oauth_global_client"
       },
     ]

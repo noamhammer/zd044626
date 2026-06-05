@@ -1,0 +1,5 @@
+zendesk.organization standard_sandbox@s {
+  name = "standard sandbox"
+  shared_tickets = false
+  shared_comments = false
+}
