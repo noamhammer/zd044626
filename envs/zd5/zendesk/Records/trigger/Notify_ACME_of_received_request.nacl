@@ -1,5 +1,5 @@
-zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
-  title = "Notify requester and CCs of received request"
+zendesk.trigger Notify_ACME_of_received_request@s {
+  title = "Notify ACME of received request"
   active = true
   default = false
   actions = [
@@ -8,8 +8,16 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
       value = [
         "requester_and_ccs",
         "[Request received]",
-        "Your request ({{ticket.id}}) has been received and is being reviewed by our support staff.<br/><br/>To add additional comments, reply to this email.",
+        "Hi, we've received your request ({{ticket.id}}) and we're already looking into it.<br/><br/>To help us resolve it faster, please reply to this email with any extra details — screenshots, error messages, or steps to reproduce.<br/><br/>— The Support Team",
       ]
+    },
+    {
+      field = "add_tags"
+      value = "enterprise"
+    },
+    {
+      field = "priority"
+      value = "high"
     },
   ]
   conditions = {
@@ -41,13 +49,13 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
       },
       {
         field = "organization_id"
-        operator = "is_not"
+        operator = "is"
         value = zendesk.organization.instance.ACME
       },
     ]
   }
-  description = "Sends an auto-response email to your requesters when they submit a ticket. It's best practice to keep this enabled."
-  raw_title = "Notify requester and CCs of received request"
+  description = "Sends a dedicated auto-response email to ACME requesters when they submit a ticket, tags it as enterprise and sets priority to high. Replaces the generic received-request notification for ACME."
+  raw_title = "Notify ACME of received request"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notify requester and CCs of received request"
+  _alias = "Notify ACME of received request"
 }

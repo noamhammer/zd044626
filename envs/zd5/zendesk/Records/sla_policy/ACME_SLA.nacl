@@ -1,0 +1,71 @@
+zendesk.sla_policy ACME_SLA@s {
+  title = "ACME SLA"
+  filter = {
+    all = [
+      {
+        field = "organization_id"
+        operator = "is"
+        value = zendesk.organization.instance.ACME
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "low"
+      metric = "first_reply_time"
+      target = 30
+      business_hours = false
+      target_in_seconds = 1800
+    },
+    {
+      priority = "low"
+      metric = "next_reply_time"
+      target = 45
+      business_hours = false
+      target_in_seconds = 2700
+    },
+    {
+      priority = "normal"
+      metric = "first_reply_time"
+      target = 30
+      business_hours = false
+      target_in_seconds = 1800
+    },
+    {
+      priority = "normal"
+      metric = "next_reply_time"
+      target = 45
+      business_hours = false
+      target_in_seconds = 2700
+    },
+    {
+      priority = "high"
+      metric = "first_reply_time"
+      target = 30
+      business_hours = false
+      target_in_seconds = 1800
+    },
+    {
+      priority = "high"
+      metric = "next_reply_time"
+      target = 45
+      business_hours = false
+      target_in_seconds = 2700
+    },
+    {
+      priority = "urgent"
+      metric = "first_reply_time"
+      target = 30
+      business_hours = false
+      target_in_seconds = 1800
+    },
+    {
+      priority = "urgent"
+      metric = "next_reply_time"
+      target = 45
+      business_hours = false
+      target_in_seconds = 2700
+    },
+  ]
+  _alias = "ACME SLA"
+}
