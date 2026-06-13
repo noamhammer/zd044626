@@ -15,24 +15,24 @@ zendesk.trigger Notify_group_of_assignment@s {
   conditions = {
     all = [
       {
-        field = "group_id"
-        operator = "is_not"
+        field = "assignee_id"
+        operator = "is"
         value = ""
       },
       {
-        field = "assignee_id"
-        operator = "is"
+        field = "group_id"
+        operator = "is_not"
         value = ""
       },
     ]
     any = [
       {
-        field = "group_id"
+        field = "assignee_id"
         operator = "changed"
         value = ""
       },
       {
-        field = "assignee_id"
+        field = "group_id"
         operator = "changed"
         value = ""
       },

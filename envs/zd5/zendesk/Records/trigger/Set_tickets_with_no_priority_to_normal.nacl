@@ -11,13 +11,13 @@ zendesk.trigger Set_tickets_with_no_priority_to_normal@s {
   conditions = {
     all = [
       {
+        field = "priority"
+        operator = "is"
+      },
+      {
         field = "update_type"
         operator = "is"
         value = "Create"
-      },
-      {
-        field = "priority"
-        operator = "is"
       },
     ]
   }

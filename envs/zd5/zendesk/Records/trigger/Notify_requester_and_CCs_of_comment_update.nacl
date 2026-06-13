@@ -15,14 +15,14 @@ zendesk.trigger Notify_requester_and_CCs_of_comment_update@s {
   conditions = {
     all = [
       {
-        field = "update_type"
-        operator = "is"
-        value = "Change"
-      },
-      {
         field = "comment_is_public"
         operator = "is"
         value = true
+      },
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Change"
       },
     ]
   }

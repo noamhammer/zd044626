@@ -15,9 +15,14 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
   conditions = {
     all = [
       {
-        field = "update_type"
+        field = "comment_is_public"
         operator = "is"
-        value = "Create"
+        value = true
+      },
+      {
+        field = "role"
+        operator = "is"
+        value = "end_user"
       },
       {
         field = "status"
@@ -30,14 +35,9 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
         value = "public"
       },
       {
-        field = "comment_is_public"
+        field = "update_type"
         operator = "is"
-        value = true
-      },
-      {
-        field = "role"
-        operator = "is"
-        value = "end_user"
+        value = "Create"
       },
     ]
   }

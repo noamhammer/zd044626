@@ -158,6 +158,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     suggested_assignees_eap_enabled = false
     email_msar_eap_tos_accepted = false
     email_msar_eap_enabled = false
+    lisbon_theme_eap_tos_accepted = false
+    lisbon_theme_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -485,6 +487,7 @@ Please choose your issue below
 
 {{footer}}
 '''
+    multi_recipient_email_tickets = false
   }
   side_conversations = {
     email_channel = true
