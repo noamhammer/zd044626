@@ -11,6 +11,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.Notify_assignee_of_assignment@s,
         zendesk.trigger.instance.Notify_group_of_assignment@s,
         zendesk.trigger.instance.Notify_all_agents_of_received_request@s,
+        zendesk.trigger.instance.ref_test@s,
       ]
       inactive = [
       ]

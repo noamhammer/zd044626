@@ -1,0 +1,37 @@
+zendesk.trigger ref_test@s {
+  title = "ref test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_user"
+      value = [
+        "current_user",
+        "ref test",
+        '''
+TEST BODY
+{{ticket.ticket_field_option_title_${ zendesk.ticket_field.instance.Customer_Priority_tagger@su }}}
+{{ticket.ticket_field_option_title_${ zendesk.ticket_field.instance.missing_40101947598483 }}}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "open"
+      },
+      {
+        field = zendesk.ticket_field.instance.Customer_Priority_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger__medium@suuu
+      },
+    ]
+  }
+  description = ""
+  raw_title = "ref test"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "ref test"
+}

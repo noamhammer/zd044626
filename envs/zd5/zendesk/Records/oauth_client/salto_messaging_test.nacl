@@ -1,0 +1,13 @@
+zendesk.oauth_client salto_messaging_test@b {
+  name = "salto-messaging-test"
+  identifier = "salto-messaging-test"
+  company = "standard sandbox"
+  description = "salto-messaging-test"
+  redirect_uri = [
+    "https://d3vsalto21742807822.zendesk.com/",
+  ]
+  global = false
+  kind = "public"
+  enforce_token_expiration = true
+  _alias = "salto-messaging-test"
+}
