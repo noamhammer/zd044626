@@ -2,7 +2,7 @@ zendesk.macro assign_user_macro@s {
   title = "assign user macro"
   active = true
   default = false
-  description = "missing user on deploy2"
+  description = "missing user on deploy3"
   actions = [
     {
       field = "priority"
