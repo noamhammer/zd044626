@@ -1,0 +1,15 @@
+zendesk.webhook MKD_Test_SALTO_8177@ssb {
+  name = "MKD Test SALTO-8177"
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://webhook.site/salto-8177-test"
+  http_method = "POST"
+  request_format = "json"
+  custom_headers = {
+    dd_api_key = "abc123examplekeytoexclude"
+    dd_api_name = "name test"
+  }
+  _alias = "MKD Test SALTO-8177"
+}
