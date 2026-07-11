@@ -1,0 +1,16 @@
+zendesk.routing_attribute_value test3__test3name {
+  name = "test3name"
+  conditions = {
+    all = [
+      {
+        subject = "brand_id"
+        operator = "is"
+        value = zendesk.brand.instance.standard_sandbox@s
+      },
+    ]
+  }
+  _parent = [
+    zendesk.routing_attribute.instance.test3,
+  ]
+  _alias = "test3name"
+}

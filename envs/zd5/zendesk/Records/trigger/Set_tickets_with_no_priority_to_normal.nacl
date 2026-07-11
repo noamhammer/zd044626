@@ -19,6 +19,11 @@ zendesk.trigger Set_tickets_with_no_priority_to_normal@s {
         operator = "is"
         value = "Create"
       },
+      {
+        field = "lookup:ticket.ticket_field_${ zendesk.ticket_field.instance.Tamir_Lookup_lookup@su }.custom_fields.${ zendesk.custom_object_field.instance.stagingtest1__dropdown }"
+        operator = "is"
+        value = zendesk.custom_object_field__custom_field_options.instance.stagingtest1__dropdown__value1
+      },
     ]
   }
   description = "Sets ticket priority to normal, if none is created, to apply a 1-hour first reply time SLA policy."

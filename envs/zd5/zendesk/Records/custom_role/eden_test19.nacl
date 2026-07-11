@@ -55,7 +55,6 @@ zendesk.custom_role eden_test19@s {
     manage_user_own_forwarding_numbers = true
     manage_user_own_photo = true
     ticket_redaction = false
-    update_api_settings = false
     update_user_own_alias = true
     update_user_own_name = true
     update_user_own_signature = true
