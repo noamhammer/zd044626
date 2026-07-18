@@ -1,0 +1,30 @@
+zendesk.messaging_trigger fbmessanger {
+  name = "fbmessanger"
+  description = "dsfdfsdfsd"
+  definition = {
+    event = "conversation_started"
+    actions = [
+      [
+        "addTagsToTicket",
+        [
+          zendesk.tag.instance.man,
+          zendesk.tag.instance.test,
+        ],
+      ],
+    ]
+    condition = [
+      "or",
+      [
+        "eq",
+        "@customer_prev_conversations",
+        2,
+      ],
+    ]
+  }
+  active = true
+  channels = [
+    zendesk.channel.instance.Facebook_Messenger@s,
+  ]
+  fire_once = false
+  _alias = "fbmessanger"
+}

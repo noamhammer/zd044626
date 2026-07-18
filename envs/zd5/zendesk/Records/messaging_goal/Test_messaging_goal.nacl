@@ -1,0 +1,29 @@
+zendesk.messaging_goal Test_messaging_goal@s {
+  name = "Test messaging goal"
+  description = "desc"
+  active = true
+  groups = [
+    zendesk.group.instance.Demo,
+    zendesk.group.instance.edenAudit,
+  ]
+  transaction_value = 15
+  attribution = "FIRST_TOUCH"
+  attribution_period = 5
+  start_date = "2026-07-06T21:00:00Z"
+  end_date = "2026-07-08T21:00:00Z"
+  definition_json = {
+    conditions = [
+      {
+        match = "ANY"
+        values = [
+          {
+            operator = "IS"
+            category = "URL"
+            value = "https://example.com"
+          },
+        ]
+      },
+    ]
+  }
+  _alias = "Test messaging goal"
+}

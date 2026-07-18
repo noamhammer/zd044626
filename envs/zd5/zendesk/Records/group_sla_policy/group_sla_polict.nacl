@@ -1,0 +1,39 @@
+zendesk.group_sla_policy group_sla_polict {
+  title = "group_sla_polict"
+  description = "qqq"
+  filter = {
+    all = [
+      {
+        field = "assignee_id"
+        operator = "is"
+        value = "zendesk-adapter@salto.io"
+      },
+      {
+        field = zendesk.ticket_field.instance.__zd_itam_asset_ticket_field___lookup@_00123_00123vuuu_00125_00125u
+        operator = "not_present"
+        value = ""
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "normal"
+      metric = "group_ownership_time"
+      target = 370
+      business_hours = true
+    },
+    {
+      priority = "high"
+      metric = "group_ownership_time"
+      target = 60
+      business_hours = true
+    },
+    {
+      priority = "urgent"
+      metric = "group_ownership_time"
+      target = 30
+      business_hours = false
+    },
+  ]
+  _alias = "group_sla_polict"
+}

@@ -1,0 +1,6 @@
+zendesk.group_sla_policy_order {
+  active = [
+    zendesk.group_sla_policy.instance.group_sla_polict,
+    zendesk.group_sla_policy.instance.grouppol2,
+  ]
+}

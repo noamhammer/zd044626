@@ -50,3 +50,23 @@ zendesk.tag zgy_check {
   id = "zgy_check"
   _alias = "zgy_check"
 }
+zendesk.tag bla3 {
+  id = "bla3"
+  _alias = "bla3"
+}
+zendesk.tag bla4 {
+  id = "bla4"
+  _alias = "bla4"
+}
+zendesk.tag man {
+  id = "man"
+  _alias = "man"
+}
+zendesk.tag msgtrigger {
+  id = "msgtrigger"
+  _alias = "msgtrigger"
+}
+zendesk.tag test {
+  id = "test"
+  _alias = "test"
+}

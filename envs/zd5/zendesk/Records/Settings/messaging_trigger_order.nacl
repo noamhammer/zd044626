@@ -1,0 +1,10 @@
+zendesk.messaging_trigger_order {
+  active = [
+    zendesk.messaging_trigger.instance.fbmessanger,
+    zendesk.messaging_trigger.instance.messaging_trigger_test,
+    zendesk.messaging_trigger.instance.First_Reply@s,
+    zendesk.messaging_trigger.instance.All_Agents_Offline@s,
+    zendesk.messaging_trigger.instance.noammsgtrigger3,
+    zendesk.messaging_trigger.instance.noammsgtrigger2,
+  ]
+}

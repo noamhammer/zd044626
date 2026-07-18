@@ -97,6 +97,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     attachment_public_expiration = false
     attachment_public_duration = 24
     private_end_user_attachments = false
+    email_redact_attachments_when_placeholders_disallow = false
   }
   agents = {
     agent_workspace = true
@@ -235,7 +236,6 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
   }
   lotus = {
     prefer_lotus = true
-    reporting = true
     pod_id = 19
   }
   statistics = {

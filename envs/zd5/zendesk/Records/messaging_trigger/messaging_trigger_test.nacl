@@ -1,0 +1,154 @@
+zendesk.messaging_trigger messaging_trigger_test {
+  name = "messaging_trigger_test"
+  description = "My desc for messaging_trigger_test"
+  definition = {
+    event = "conversation_started"
+    actions = [
+      [
+        "addTagsToTicket",
+        [
+          zendesk.tag.instance.msgtrigger,
+          zendesk.tag.instance.test,
+        ],
+      ],
+      [
+        "sendMessageToCustomer",
+        "Noam",
+        "HELLO WORLD",
+      ],
+      [
+        "wait",
+        67,
+      ],
+      [
+        "emailCapture",
+      ],
+      [
+        "setTriggered",
+        true,
+      ],
+      [
+        "removeTagsFromTicket",
+        [
+          zendesk.tag.instance.man,
+        ],
+      ],
+      [
+        "suspendEndUser",
+        "abusive_language",
+        "RUDE",
+      ],
+      [
+        "suspendEndUser",
+        "uncooperative",
+        "",
+      ],
+      [
+        "suspendEndUser",
+        "impersonating_others",
+        "gdfgdfg",
+      ],
+      [
+        "suspendEndUser",
+        "other_reason",
+        "yo man",
+      ],
+    ]
+    condition = [
+      "or",
+      [
+        "eq",
+        "@customer_ip",
+        "1.8.8.1",
+      ],
+      [
+        "or",
+        [
+          "eq",
+          "@brand_id",
+          zendesk.brand.instance.standard_sandbox@s,
+        ],
+      ],
+      [
+        "eq",
+        "@account_status",
+        "away",
+      ],
+      [
+        "lt",
+        "@queue_size",
+        20,
+      ],
+      [
+        "eq",
+        "@day_of_week",
+        5,
+      ],
+      [
+        "gt",
+        "@customer_prev_conversations",
+        1,
+      ],
+      [
+        "eq",
+        "@customer_name",
+        "Hero",
+      ],
+      [
+        "or",
+        [
+          "eq",
+          "@customer_region_code",
+          "ID-NB",
+        ],
+        [
+          "eq",
+          "@customer_region_code",
+          "GB-ENG",
+        ],
+      ],
+      [
+        "groupStatus",
+        zendesk.group.instance.audit_test2@s,
+        "online",
+      ],
+      [
+        "eq",
+        "@group",
+        "Demo",
+      ],
+      [
+        "or",
+        [
+          "array_element_eq",
+          "@tags",
+          zendesk.tag.instance.bla3,
+        ],
+        [
+          "array_element_eq",
+          "@tags",
+          zendesk.tag.instance.bla4,
+        ],
+      ],
+      [
+        "or",
+        [
+          "eq",
+          "@customer_country_code",
+          "IL",
+        ],
+        [
+          "eq",
+          "@customer_country_code",
+          "GB",
+        ],
+      ],
+    ]
+  }
+  active = true
+  channels = [
+    zendesk.channel.instance.Messaging,
+  ]
+  fire_once = false
+  _alias = "messaging_trigger_test"
+}

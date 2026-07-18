@@ -1,0 +1,28 @@
+zendesk.messaging_trigger noammsgtrigger2 {
+  name = "noammsgtrigger2"
+  description = "bla"
+  definition = {
+    event = "conversation_message"
+    actions = [
+      [
+        "wait",
+        10,
+      ],
+    ]
+    condition = [
+      "and",
+      [
+        "eq",
+        "@day_of_week",
+        6,
+      ],
+    ]
+  }
+  active = true
+  channels = [
+    zendesk.channel.instance.Messaging,
+    zendesk.channel.instance.Google_RCS@s,
+  ]
+  fire_once = false
+  _alias = "noammsgtrigger2"
+}

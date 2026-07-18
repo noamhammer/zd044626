@@ -1,0 +1,28 @@
+zendesk.messaging_goal fgdgfg {
+  name = "fgdgfg"
+  description = ""
+  active = true
+  groups = [
+    zendesk.group.instance.Tier_1___AMER@ssbs,
+  ]
+  transaction_value = 11.5
+  attribution = "LAST_TOUCH"
+  attribution_period = 10
+  start_date = "2026-07-08T21:00:00Z"
+  end_date = "2026-07-10T21:00:00Z"
+  definition_json = {
+    conditions = [
+      {
+        match = "ANY"
+        values = [
+          {
+            operator = "CONTAINS"
+            category = "URL"
+            value = "test"
+          },
+        ]
+      },
+    ]
+  }
+  _alias = "fgdgfg"
+}

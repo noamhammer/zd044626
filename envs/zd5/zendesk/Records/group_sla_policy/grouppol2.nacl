@@ -1,0 +1,26 @@
+zendesk.group_sla_policy grouppol2 {
+  title = "grouppol2"
+  filter = {
+    any = [
+      {
+        field = "lookup:ticket.ticket_field_${ zendesk.ticket_field.instance.Tamir_Lookup_lookup@su }.custom_fields.${ zendesk.custom_object_field.instance.stagingtest1__dropdown }"
+        operator = "is"
+        value = zendesk.custom_object_field__custom_field_options.instance.stagingtest1__dropdown__value1
+      },
+      {
+        field = zendesk.ticket_field.instance.__zd_approval_workflow_status_ticket_field___tagger@_00123_00123vuuuu_00125_00125u
+        operator = "is_not"
+        value = zendesk.ticket_field__custom_field_options.instance.__zd_approval_workflow_status_ticket_field___tagger__zd_es_approval_approved@_00123_00123vuuuu_00125_00125uuuuuu
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "urgent"
+      metric = "group_ownership_time"
+      target = 15
+      business_hours = false
+    },
+  ]
+  _alias = "grouppol2"
+}
