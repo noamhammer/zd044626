@@ -22,7 +22,7 @@ zendesk.custom_role no_tickets@s {
     group_access = true
     organization_editing = true
     organization_notes_editing = true
-    assign_tickets_to_any_group = true
+    assign_tickets_to_any_group = false
     end_user_profile_access = "readonly"
     explore_access = "none"
     forum_access = "full"

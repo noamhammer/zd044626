@@ -21,7 +21,7 @@ zendesk.custom_role role28 {
     group_access = false
     organization_editing = false
     organization_notes_editing = false
-    assign_tickets_to_any_group = false
+    assign_tickets_to_any_group = true
     end_user_profile_access = "full"
     explore_access = "readonly"
     forum_access = "full"

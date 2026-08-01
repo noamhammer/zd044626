@@ -457,6 +457,7 @@ Please choose your issue below
     email_template_photos = true
     email_template_selection = false
     gmail_actions = true
+    gmail_fallback_enabled = true
     html_mail_template = '''
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
