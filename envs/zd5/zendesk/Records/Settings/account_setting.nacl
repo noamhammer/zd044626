@@ -91,6 +91,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     messaging_enabled = true
     ccs_followers_rules_update_required = true
     ccs_followers_no_rollback = true
+    email_ccs_addable_only_by_agents_via_email = false
     sunco_private_attachments_enabled = true
     only_allowed_attachment_file_types = "all"
     only_allowed_attachment_file_types_agreement = "unset"
@@ -163,6 +164,10 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     ai_agents_autoserve_eap_enabled = false
     iap_admin_copilot_action_flows_eap_tos_accepted = false
     iap_admin_copilot_action_flows_eap_enabled = false
+    apps_mtls_eap_tos_accepted = false
+    apps_mtls_eap_enabled = false
+    advanced_action_flows_eap_tos_accepted = false
+    advanced_action_flows_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
