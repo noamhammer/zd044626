@@ -47,6 +47,7 @@ zendesk.account_setting {
     ticket_followers_allowed = true
     ticket_auto_tagging = true
     end_user_attachments = true
+    audio_recorder_enabled = true
     copy_original_assignee_and_group_to_followup = false
     ccs_requester_excluded_public_comments = false
     bcc_archive_address = ""
@@ -118,6 +119,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     unified_navigation_terms_and_conditions_accepted = false
     ai_async_comment_translations_eap_enabled = false
     ai_translation_disclosure_enabled = false
+    explore_zra_monitoring_assistant_enabled = true
     example_eap_tos_accepted = false
     example_eap_enabled = false
     explore_zra_monitoring_assistant_eap_tos_accepted = false
@@ -168,6 +170,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     apps_mtls_eap_enabled = false
     advanced_action_flows_eap_tos_accepted = false
     advanced_action_flows_eap_enabled = false
+    headless_platform_mcp_eap_tos_accepted = false
+    headless_platform_mcp_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
