@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_language_field___tagger__language__et@_00123_00123vuuu_00125_00125uuuuu {
+  raw_name = "Estonian"
+  value = "language__et"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_language_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "language__et"
+}

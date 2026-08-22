@@ -156,6 +156,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     contentful_eap_enabled = false
     approvals_hitl_sequential_eap_tos_accepted = false
     approvals_hitl_sequential_eap_enabled = false
+    split_view_eap_tos_accepted = false
+    split_view_eap_enabled = false
     suggested_assignees_eap_tos_accepted = false
     suggested_assignees_eap_enabled = false
     email_msar_eap_tos_accepted = false
@@ -172,6 +174,10 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     advanced_action_flows_eap_enabled = false
     headless_platform_mcp_eap_tos_accepted = false
     headless_platform_mcp_eap_enabled = false
+    ai_agents_conversation_simulator_eap_tos_accepted = false
+    ai_agents_conversation_simulator_eap_enabled = false
+    bi_directional_slack_eap_tos_accepted = false
+    bi_directional_slack_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -512,5 +518,8 @@ Please choose your issue below
   }
   approvals = {
     slack_workspace = ""
+  }
+  notifications = {
+    notifications_preference_admin_setting = false
   }
 }

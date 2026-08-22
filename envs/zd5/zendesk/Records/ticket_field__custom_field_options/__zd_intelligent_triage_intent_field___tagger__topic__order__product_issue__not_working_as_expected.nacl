@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__order__product_issue__not_working_as_expected@_00123_00123vuuu_00125_00125uuuuuuuuuuuuu {
+  raw_name = "Order::Product issue::Product not working as expected"
+  value = "topic__order__product_issue__not_working_as_expected"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__order__product_issue__not_working_as_expected"
+}

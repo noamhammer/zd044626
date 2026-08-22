@@ -1,0 +1,21 @@
+zendesk.ticket_field __zd_intelligent_triage_intent_confidence_field___tagger@_00123_00123vuuuu_00125_00125u {
+  type = "tagger"
+  raw_title = "{{zd.intelligent_triage_intent_confidence_field}}"
+  raw_description = "{{zd.intelligent_triage_intent_confidence_field_description}}"
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "{{zd.intelligent_triage_intent_confidence_field}}"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  agent_can_edit = true
+  removable = true
+  key = "standard::intelligent_triage_intent_confidence"
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.__zd_intelligent_triage_intent_confidence_field___tagger__topic_confidence__low@_00123_00123vuuuu_00125_00125uuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.__zd_intelligent_triage_intent_confidence_field___tagger__topic_confidence__medium@_00123_00123vuuuu_00125_00125uuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.__zd_intelligent_triage_intent_confidence_field___tagger__topic_confidence__high@_00123_00123vuuuu_00125_00125uuuuuu,
+  ]
+  _alias = "Topic confidence"
+}

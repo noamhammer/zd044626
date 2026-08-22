@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__billing__discount__request_new_promo_code@_00123_00123vuuu_00125_00125uuuuuuuuuuuu {
+  raw_name = "Billing::Discount::Request new promo code"
+  value = "topic__billing__discount__request_new_promo_code"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__billing__discount__request_new_promo_code"
+}

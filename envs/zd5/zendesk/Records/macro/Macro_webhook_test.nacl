@@ -1,0 +1,14 @@
+zendesk.macro Macro_webhook_test@s {
+  title = "Macro webhook test"
+  active = true
+  default = false
+  description = ""
+  actions = [
+    {
+      field = "subject"
+      value = "TEST WEBHOOK-Edited-2"
+    },
+  ]
+  raw_title = "Macro webhook test"
+  _alias = "Macro webhook test"
+}

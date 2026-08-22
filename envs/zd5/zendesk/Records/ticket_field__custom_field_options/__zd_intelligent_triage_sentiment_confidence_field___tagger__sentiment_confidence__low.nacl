@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_sentiment_confidence_field___tagger__sentiment_confidence__low@_00123_00123vuuuu_00125_00125uuuuuu {
+  raw_name = "Low"
+  value = "sentiment_confidence__low"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_sentiment_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+  ]
+  _alias = "sentiment_confidence__low"
+}

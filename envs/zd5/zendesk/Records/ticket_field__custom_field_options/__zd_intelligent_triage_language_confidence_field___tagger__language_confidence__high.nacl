@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_language_confidence_field___tagger__language_confidence__high@_00123_00123vuuuu_00125_00125uuuuuu {
+  raw_name = "High"
+  value = "language_confidence__high"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_language_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+  ]
+  _alias = "language_confidence__high"
+}

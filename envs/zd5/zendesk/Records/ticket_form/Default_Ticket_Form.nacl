@@ -142,6 +142,12 @@ zendesk.ticket_form Default_Ticket_Form@s {
     zendesk.ticket_field.instance._eshed__Subscription_Expiration_Date_date@hisssu,
     zendesk.ticket_field.instance.tagger1_tagger,
     zendesk.ticket_field.instance.__zd_approval_workflow_status_ticket_field___tagger@_00123_00123vuuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_sentiment_field___tagger@_00123_00123vuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_sentiment_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_language_field___tagger@_00123_00123vuuu_00125_00125u,
+    zendesk.ticket_field.instance.__zd_intelligent_triage_language_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
   ]
   active = true
   default = true

@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__service__info__do_you_provide_this_service@_00123_00123vuuu_00125_00125uuuuuuuuuuuuu {
+  raw_name = "Service::Service information::Available services"
+  value = "topic__service__info__do_you_provide_this_service"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__service__info__do_you_provide_this_service"
+}

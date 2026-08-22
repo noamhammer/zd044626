@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__billing__price_clarification__which_price@_00123_00123vuuu_00125_00125uuuuuuuuuuu {
+  raw_name = "Billing::Price clarification::Price is different than expected"
+  value = "topic__billing__price_clarification__which_price"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__billing__price_clarification__which_price"
+}

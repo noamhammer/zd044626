@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__service__appointment__confirmation@_00123_00123vuuu_00125_00125uuuuuuuuu {
+  raw_name = "Service::Appointment::Appointment confirmation"
+  value = "topic__service__appointment__confirmation"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__service__appointment__confirmation"
+}

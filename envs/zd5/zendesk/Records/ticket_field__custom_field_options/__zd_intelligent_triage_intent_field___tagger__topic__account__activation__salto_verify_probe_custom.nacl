@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__account__activation__salto_verify_probe_custom@_00123_00123vuuu_00125_00125uuuuuuuuuuuu {
+  raw_name = "Account::Account activation::Salto verify probe"
+  value = "topic__account__activation__salto_verify_probe_custom"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__account__activation__salto_verify_probe_custom"
+}

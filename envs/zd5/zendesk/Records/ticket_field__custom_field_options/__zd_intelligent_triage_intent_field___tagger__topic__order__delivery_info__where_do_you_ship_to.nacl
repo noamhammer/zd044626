@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__order__delivery_info__where_do_you_ship_to@_00123_00123vuuu_00125_00125uuuuuuuuuuuuuu {
+  raw_name = "Order::Delivery information::Where do you ship to"
+  value = "topic__order__delivery_info__where_do_you_ship_to"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__order__delivery_info__where_do_you_ship_to"
+}

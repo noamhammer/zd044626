@@ -2,4 +2,5 @@ zendesk.organization ACME {
   name = "ACME"
   shared_tickets = false
   shared_comments = false
+  ticket_restriction = "restricted"
 }

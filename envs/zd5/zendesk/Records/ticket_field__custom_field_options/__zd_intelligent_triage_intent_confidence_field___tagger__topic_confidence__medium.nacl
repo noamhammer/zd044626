@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_confidence_field___tagger__topic_confidence__medium@_00123_00123vuuuu_00125_00125uuuuuu {
+  raw_name = "Medium"
+  value = "topic_confidence__medium"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+  ]
+  _alias = "topic_confidence__medium"
+}

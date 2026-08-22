@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__order__cancellation__why_cancelled@_00123_00123vuuu_00125_00125uuuuuuuuuu {
+  raw_name = "Order::Order cancelation::Reason for order cancellation"
+  value = "topic__order__cancellation__why_cancelled"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__order__cancellation__why_cancelled"
+}
