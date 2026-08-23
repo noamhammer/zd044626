@@ -39,6 +39,11 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
         operator = "is"
         value = "Create"
       },
+      {
+        field = "organization_id"
+        operator = "is_not"
+        value = zendesk.organization.instance.ACME
+      },
     ]
   }
   description = "Sends an auto-response email to your requesters when they submit a ticket. It's best practice to keep this enabled."

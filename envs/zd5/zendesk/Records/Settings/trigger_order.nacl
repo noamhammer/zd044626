@@ -3,6 +3,7 @@ zendesk.trigger_order {
     {
       category = zendesk.trigger_category.instance.Notifications
       active = [
+        zendesk.trigger.instance.Notify_ACME_of_received_request@s,
         zendesk.trigger.instance.Notify_requester_and_CCs_of_received_request@s,
         zendesk.trigger.instance.Notify_requester_of_new_proactive_ticket@s,
         zendesk.trigger.instance.Notify_requester_and_CCs_of_comment_update@s,
