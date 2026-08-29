@@ -70,3 +70,7 @@ zendesk.tag test {
   id = "test"
   _alias = "test"
 }
+zendesk.tag email_risk {
+  id = "email_risk"
+  _alias = "email_risk"
+}

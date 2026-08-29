@@ -1,0 +1,18 @@
+zendesk.ticket_field NH___num_field_1_integer@sbsssu {
+  type = "integer"
+  raw_title = "NH - num field 1"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  regexp_for_validation = "\\A[-+]?\\d+\\z"
+  raw_title_in_portal = "NH - num field 1"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  agent_can_edit = true
+  removable = true
+  agent_description = "A number field"
+  raw_agent_description = "A number field"
+  _alias = "NH - num field 1"
+}

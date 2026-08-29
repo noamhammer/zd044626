@@ -178,6 +178,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     ai_agents_conversation_simulator_eap_enabled = false
     bi_directional_slack_eap_tos_accepted = false
     bi_directional_slack_eap_enabled = false
+    contact_center_realtime_translation_eap_tos_accepted = false
+    contact_center_realtime_translation_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -349,6 +351,7 @@ Please choose your issue below
   }
   limits = {
     attachment_size = 52428800
+    multi_lookup_fields = 2
     it_asset_management = {
       asset_count = 1000000
       asset_type_count = 100

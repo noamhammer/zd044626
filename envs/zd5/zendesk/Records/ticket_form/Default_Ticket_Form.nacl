@@ -148,6 +148,10 @@ zendesk.ticket_form Default_Ticket_Form@s {
     zendesk.ticket_field.instance.__zd_intelligent_triage_sentiment_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
     zendesk.ticket_field.instance.__zd_intelligent_triage_language_field___tagger@_00123_00123vuuu_00125_00125u,
     zendesk.ticket_field.instance.__zd_intelligent_triage_language_confidence_field___tagger@_00123_00123vuuuu_00125_00125u,
+    zendesk.ticket_field.instance.NH___num_field_1_integer@sbsssu,
+    zendesk.ticket_field.instance.NH___text_field_text@sbssu,
+    zendesk.ticket_field.instance.NH___Health_status_field_tagger@sbsssu,
+    zendesk.ticket_field.instance.HA___customer_health_status_tagger@sbsssu,
   ]
   active = true
   default = true

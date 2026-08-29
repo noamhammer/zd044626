@@ -59,7 +59,7 @@ zendesk.custom_role Billing_admin@s {
     update_user_own_name = true
     update_user_own_signature = true
     manage_macro_content_suggestions = true
-    modify_closed_tickets = false
+    modify_closed_tickets = true
     read_macro_content_suggestions = true
     view_reduced_count = false
     view_filter_tickets = true

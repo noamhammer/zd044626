@@ -1,0 +1,33 @@
+zendesk.trigger NH___trigger___Webform___set_Health_status_and_score_for@sbssbssbssssss {
+  title = "NH - trigger - Webform - set Health status and score for"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.NH___Health_status_field_tagger@sbsssu
+      value = zendesk.ticket_field__custom_field_options.instance.NH___Health_status_field_tagger__red@sbsssuuu
+    },
+    {
+      field = zendesk.ticket_field.instance.NH___num_field_1_integer@sbsssu
+      value = "60"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "custom_status_id"
+        operator = "is"
+        value = zendesk.custom_status.instance.new___zd_status_new__@u_00123_00123vu_00125_00125
+      },
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk.channel.instance.Web_form@s
+      },
+    ]
+  }
+  description = "Set a health status value and give a score (number) to web form tickets"
+  raw_title = "NH - trigger - Webform - set Health status and score for"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "NH - trigger - Webform - set Health status and score for"
+}
