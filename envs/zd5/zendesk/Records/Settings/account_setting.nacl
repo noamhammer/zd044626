@@ -160,8 +160,6 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     split_view_eap_enabled = false
     suggested_assignees_eap_tos_accepted = false
     suggested_assignees_eap_enabled = false
-    email_msar_eap_tos_accepted = false
-    email_msar_eap_enabled = false
     lisbon_theme_eap_tos_accepted = false
     lisbon_theme_eap_enabled = false
     ai_agents_autoserve_eap_tos_accepted = false
@@ -247,6 +245,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     agent_created_welcome_emails = false
     end_user_phone_number_validation = false
     have_gravatars_enabled = true
+    shared_email_creation_enabled = false
   }
   screencast = {
     enabled_for_tickets = false
@@ -427,6 +426,11 @@ Please choose your issue below
     ticket_sorting_prioritize_sla = false
     transform_to_email_enabled = false
   }
+  realtime_insights = {
+    enabled = false
+    anomaly_detection = false
+    trending_topics_summary = false
+  }
   deletion = {
     user_auto_delete_soft_deleted_retention = 30
     user_auto_delete_max_deletions_per_hour = 1000
@@ -464,6 +468,9 @@ Please choose your issue below
   agent_mcp = {
     enabled = false
     oauth_auth_enabled = false
+  }
+  surveys = {
+    theming_integration_enabled = false
   }
   saas_management_enabled = false
   email = {
@@ -511,6 +518,7 @@ Please choose your issue below
 {{footer}}
 '''
     multi_recipient_email_tickets = false
+    email_voice_ai_agent_comments = true
   }
   side_conversations = {
     email_channel = true
