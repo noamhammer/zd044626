@@ -469,10 +469,15 @@ Please choose your issue below
     enabled = false
     oauth_auth_enabled = false
   }
+  has_org_hierarchy = false
+  org_hierarchy_enabled = false
   surveys = {
     theming_integration_enabled = false
   }
   saas_management_enabled = false
+  qa = {
+    quality_score_opted_out = false
+  }
   email = {
     accept_wildcard_emails = false
     custom_dkim_domain = false

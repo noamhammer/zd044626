@@ -49,6 +49,7 @@ zendesk.custom_role Billing_admin@s {
     manage_ticket_fields = true
     manage_ticket_forms = true
     manage_ticket_settings = true
+    manage_end_user_settings = true
     manage_triggers = true
     manage_user_fields = true
     manage_user_own_contacts = true

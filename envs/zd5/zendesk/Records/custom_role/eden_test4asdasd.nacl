@@ -49,6 +49,7 @@ zendesk.custom_role eden_test4asdasd@s {
     manage_ticket_fields = false
     manage_ticket_forms = false
     manage_ticket_settings = false
+    manage_end_user_settings = false
     manage_triggers = true
     manage_user_fields = false
     manage_user_own_contacts = true
