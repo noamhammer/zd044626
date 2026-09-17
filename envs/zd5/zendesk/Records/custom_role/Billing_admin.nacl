@@ -68,6 +68,7 @@ zendesk.custom_role Billing_admin@s {
     use_conversational_assistance = true
     manage_roles = "all"
     manage_deletion_schedules = "all"
+    manage_brands = "all"
     explore_reports = {
       ticket_access = "all"
       groups_ticket_access = "all"
@@ -80,6 +81,7 @@ zendesk.custom_role Billing_admin@s {
     assign_tickets_to_any_brand = true
     manage_ip_bans = "all"
     view_audit_logs = true
+    delete_brands = true
     execute_it_asset_management_actions = true
     capacity_rules_access = "all"
     custom_objects = {

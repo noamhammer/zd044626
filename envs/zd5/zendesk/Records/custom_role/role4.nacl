@@ -67,6 +67,7 @@ zendesk.custom_role role4 {
     use_conversational_assistance = false
     manage_roles = "none"
     manage_deletion_schedules = "none"
+    manage_brands = "none"
     explore_reports = {
       ticket_access = "none"
       groups_ticket_access = "none"
@@ -79,6 +80,7 @@ zendesk.custom_role role4 {
     assign_tickets_to_any_brand = false
     manage_ip_bans = "none"
     view_audit_logs = false
+    delete_brands = false
     execute_it_asset_management_actions = false
     capacity_rules_access = "none"
   }
