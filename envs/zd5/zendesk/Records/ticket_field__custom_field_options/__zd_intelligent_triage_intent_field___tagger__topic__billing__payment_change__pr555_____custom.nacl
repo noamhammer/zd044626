@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__billing__payment_change__pr555_____custom@_00123_00123vuuu_00125_00125uuuuuuuuuuu_02344_02350_02360u {
+  raw_name = "Billing::Payment change::PR555 नमस"
+  value = "topic__billing__payment_change__pr555_नमस_custom"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__billing__payment_change__pr555_नमस_custom"
+}
