@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__billing__discount__pr555_s2_t3_renamed_custom@_00123_00123vuuu_00125_00125uuuuuuuuuuuuu {
+  raw_name = "Billing::Discount::PR555 S2 T3 renamed"
+  value = "topic__billing__discount__pr555_s2_t3_renamed_custom"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__billing__discount__pr555_s2_t3_renamed_custom"
+}
