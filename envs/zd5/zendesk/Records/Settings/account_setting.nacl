@@ -312,7 +312,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     data_masking_configured_in_roles = false
     agent_task_lists = false
     approvals_activated = true
-    has_ever_used_approvals = false
+    has_ever_used_approvals = true
     has_ever_used_tasks = false
     benchmark_opt_out = false
     custom_dkim_domain = true
