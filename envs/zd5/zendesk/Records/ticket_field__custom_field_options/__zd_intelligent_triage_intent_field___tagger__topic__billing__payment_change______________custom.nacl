@@ -1,0 +1,9 @@
+zendesk.ticket_field__custom_field_options __zd_intelligent_triage_intent_field___tagger__topic__billing__payment_change______________custom@_00123_00123vuuu_00125_00125uuuuuuuuuu_01489_01491_01497_01511_01492u_01497_01491_01504_01497_01514u {
+  raw_name = "Billing::Payment change::בדיקה ידנית"
+  value = "topic__billing__payment_change__בדיקה_ידנית_custom"
+  allow_solving = true
+  _parent = [
+    zendesk.ticket_field.instance.__zd_intelligent_triage_intent_field___tagger@_00123_00123vuuu_00125_00125u,
+  ]
+  _alias = "topic__billing__payment_change__בדיקה_ידנית_custom"
+}
