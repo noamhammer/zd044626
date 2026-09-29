@@ -2,7 +2,7 @@ zendesk.macro renameMe {
   title = "renameMe"
   active = true
   default = false
-  description = "CLI conflicts test value"
+  description = "CLI conflicts test value 3"
   actions = [
     {
       field = "status"
