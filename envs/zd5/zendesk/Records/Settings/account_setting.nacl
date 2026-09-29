@@ -180,6 +180,10 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     contact_center_realtime_translation_eap_enabled = false
     es_change_management_eap_tos_accepted = false
     es_change_management_eap_enabled = false
+    incident_management_eap_tos_accepted = false
+    incident_management_eap_enabled = false
+    problem_management_eap_tos_accepted = false
+    problem_management_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -319,6 +323,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     allow_email_template_customization = true
     custom_objects_activated = true
     complex_relationships_enabled = true
+    cov2_anonymous_read_enabled = false
     approvers_as_end_users = false
   }
   ticket_form = {
