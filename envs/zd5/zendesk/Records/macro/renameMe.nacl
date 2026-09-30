@@ -6,7 +6,7 @@ zendesk.macro renameMe {
   actions = [
     {
       field = "status"
-      value = "pending"
+      value = "hold"
     },
   ]
   raw_title = "renameMe"
