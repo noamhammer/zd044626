@@ -1,7 +1,7 @@
 zendesk.ticket_field__custom_field_options __zd_approval_workflow_status_ticket_field___tagger__zd_es_approval_pending@_00123_00123vuuuu_00125_00125uuuuuu {
   raw_name = "{{zd.approval_workflow_status_pending}}"
   value = "zd_es_approval_pending"
-  allow_solving = true
+  allow_solving = false
   _parent = [
     zendesk.ticket_field.instance.__zd_approval_workflow_status_ticket_field___tagger@_00123_00123vuuuu_00125_00125u,
   ]
