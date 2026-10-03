@@ -38,6 +38,7 @@ zendesk.account_setting {
     chat_sla_enablement = false
     modern_ticket_reassignment = false
     show_modern_ticket_reassignment = false
+    max_task_lists_per_ticket = 1
     default_solved_ticket_reassignment_strategy = "legacy"
     accepted_new_collaboration_tos = false
     follower_and_email_cc_collaborations = true
@@ -184,6 +185,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     incident_management_eap_enabled = false
     problem_management_eap_tos_accepted = false
     problem_management_eap_enabled = false
+    saas_management_eap_tos_accepted = false
+    saas_management_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true

@@ -78,6 +78,8 @@ zendesk.custom_role Admin {
     manage_approval_requests = true
     it_asset_management_access = "full"
     manage_it_asset_configuration = true
+    change_management_access = "full"
+    manage_change_management_configuration = true
     assign_tickets_to_any_brand = true
     manage_ip_bans = "all"
     view_audit_logs = true

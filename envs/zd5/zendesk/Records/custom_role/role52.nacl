@@ -77,6 +77,8 @@ zendesk.custom_role role52 {
     manage_approval_requests = false
     it_asset_management_access = "none"
     manage_it_asset_configuration = false
+    change_management_access = "none"
+    manage_change_management_configuration = false
     assign_tickets_to_any_brand = false
     manage_ip_bans = "none"
     view_audit_logs = false
