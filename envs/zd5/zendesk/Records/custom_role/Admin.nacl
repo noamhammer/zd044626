@@ -86,6 +86,8 @@ zendesk.custom_role Admin {
     delete_brands = true
     execute_it_asset_management_actions = true
     capacity_rules_access = "all"
+    takeover_ai_agent_tickets = true
+    modify_ai_agent_tickets = true
     custom_objects = {
       stagingtest = {
         scopes = [

@@ -86,6 +86,8 @@ zendesk.custom_role eden_test2@s {
     delete_brands = false
     execute_it_asset_management_actions = false
     capacity_rules_access = "none"
+    takeover_ai_agent_tickets = false
+    modify_ai_agent_tickets = false
     custom_objects = {
       stagingtest1 = {
         scopes = [

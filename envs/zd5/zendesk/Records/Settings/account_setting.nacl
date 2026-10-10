@@ -121,6 +121,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     ai_async_comment_translations_eap_enabled = false
     ai_translation_disclosure_enabled = false
     explore_zra_monitoring_assistant_enabled = true
+    suggested_assignees_all_groups = true
     example_eap_tos_accepted = false
     example_eap_enabled = false
     explore_zra_monitoring_assistant_eap_tos_accepted = false
@@ -159,7 +160,6 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     approvals_hitl_sequential_eap_enabled = false
     split_view_eap_tos_accepted = false
     split_view_eap_enabled = false
-    suggested_assignees_eap_tos_accepted = false
     suggested_assignees_eap_enabled = false
     lisbon_theme_eap_tos_accepted = false
     lisbon_theme_eap_enabled = false
