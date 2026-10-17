@@ -128,8 +128,6 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     explore_zra_monitoring_assistant_eap_enabled = false
     it_asset_management_eap_tos_accepted = true
     it_asset_management_eap_enabled = true
-    iap_mcp_connections_home_eap_tos_accepted = false
-    iap_mcp_connections_home_eap_enabled = false
     voice_ai_agents_eap_tos_accepted = false
     voice_ai_agents_eap_enabled = false
     hyperarc_eap_tos_accepted = false
@@ -327,6 +325,9 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     custom_objects_activated = true
     complex_relationships_enabled = true
     cov2_anonymous_read_enabled = false
+    service_catalog_enabled = false
+    service_catalog_user_lookup_field = false
+    service_catalog_employee_only = false
     approvers_as_end_users = false
   }
   ticket_form = {

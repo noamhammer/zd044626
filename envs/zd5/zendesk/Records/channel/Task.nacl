@@ -1,0 +1,4 @@
+zendesk.channel Task {
+  name = "Task"
+  _alias = "Task"
+}
