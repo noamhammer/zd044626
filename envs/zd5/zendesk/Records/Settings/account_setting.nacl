@@ -20,6 +20,7 @@ zendesk.account_setting {
     tagging = true
     list_empty_views = true
     comments_public_by_default = true
+    default_public_merge_comments = true
     is_first_comment_private_enabled = true
     maximum_personal_views_to_list = 10
     status_hold = true
@@ -38,7 +39,7 @@ zendesk.account_setting {
     chat_sla_enablement = false
     modern_ticket_reassignment = false
     show_modern_ticket_reassignment = false
-    max_task_lists_per_ticket = 1
+    max_task_lists_per_ticket = 5
     default_solved_ticket_reassignment_strategy = "legacy"
     accepted_new_collaboration_tos = false
     follower_and_email_cc_collaborations = true
@@ -326,7 +327,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     complex_relationships_enabled = true
     cov2_anonymous_read_enabled = false
     service_catalog_enabled = false
-    service_catalog_user_lookup_field = false
+    service_catalog_user_lookup_field = true
     service_catalog_employee_only = false
     approvers_as_end_users = false
   }
@@ -439,6 +440,20 @@ Please choose your issue below
     assignment_method = "highest_spare_capacity"
     ticket_sorting_prioritize_sla = false
     transform_to_email_enabled = false
+    throttle_enabled_email = false
+    throttle_percentage_email = 50
+    throttle_ramp_up_time_email = 30
+    throttle_cool_down_time = 60
+    missed_messaging_assignments = {
+      enabled = false
+      limit = 0
+      agent_unified_status_id = 0
+    }
+    missed_talk_assignments = {
+      enabled = false
+      limit = 0
+      agent_unified_status_id = 0
+    }
   }
   realtime_insights = {
     enabled = false
