@@ -100,6 +100,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     only_allowed_attachment_file_types_agreement = "unset"
     attachment_public_expiration = false
     attachment_public_duration = 24
+    attachment_otp = false
+    attachment_otp_duration = 8
     private_end_user_attachments = false
     email_redact_attachments_when_placeholders_disallow = false
   }
@@ -123,6 +125,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     ai_translation_disclosure_enabled = false
     explore_zra_monitoring_assistant_enabled = true
     suggested_assignees_all_groups = true
+    custom_agents_sbp_v1_pricing_acknowledged = false
     example_eap_tos_accepted = false
     example_eap_enabled = false
     explore_zra_monitoring_assistant_eap_tos_accepted = false
@@ -186,6 +189,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     problem_management_eap_enabled = false
     saas_management_eap_tos_accepted = false
     saas_management_eap_enabled = false
+    commerce_skills_non_shopify_eap_tos_accepted = false
+    commerce_skills_non_shopify_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
