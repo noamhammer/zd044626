@@ -330,7 +330,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     allow_email_template_customization = true
     custom_objects_activated = true
     complex_relationships_enabled = true
-    cov2_anonymous_read_enabled = false
+    cov2_anonymous_read_enabled = true
+    cov2_anonymous_read_rlp = false
     service_catalog_enabled = false
     service_catalog_user_lookup_field = true
     service_catalog_employee_only = false
@@ -495,6 +496,7 @@ Please choose your issue below
   }
   end_user_mcp = {
     enabled = false
+    unauthenticated_access_enabled = false
     oauth_auth_enabled = false
     jwt_auth_enabled = false
     request_update_polling_delay_ms = 10000
