@@ -85,9 +85,25 @@ zendesk.custom_role role33 {
     view_audit_logs = false
     delete_brands = false
     execute_it_asset_management_actions = false
+    view_transaction_logs = false
     capacity_rules_access = "none"
     takeover_ai_agent_tickets = false
     modify_ai_agent_tickets = false
+    analytics = {
+      access = "readonly"
+      use_analyst_copilot = true
+      view_zra_anomaly_detection = true
+      view_zra_trending_topics = true
+      use_deep_exploration = false
+      use_ai_dashboard_builder = false
+      use_ai_dataset_builder = false
+      manage_custom_datasets = false
+      export_analytics_data = false
+      use_conversational_assistant = false
+      manage_custom_alerts = false
+      groups_ticket_access = "none"
+      brands_ticket_access = "none"
+    }
   }
   _alias = "role33"
 }

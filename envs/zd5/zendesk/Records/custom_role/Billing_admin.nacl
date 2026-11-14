@@ -86,9 +86,25 @@ zendesk.custom_role Billing_admin@s {
     view_audit_logs = true
     delete_brands = true
     execute_it_asset_management_actions = true
+    view_transaction_logs = true
     capacity_rules_access = "all"
     takeover_ai_agent_tickets = true
     modify_ai_agent_tickets = true
+    analytics = {
+      access = "full"
+      use_analyst_copilot = true
+      view_zra_anomaly_detection = true
+      view_zra_trending_topics = true
+      use_deep_exploration = true
+      use_ai_dashboard_builder = true
+      use_ai_dataset_builder = true
+      manage_custom_datasets = true
+      export_analytics_data = true
+      use_conversational_assistant = true
+      manage_custom_alerts = true
+      groups_ticket_access = "all"
+      brands_ticket_access = "all"
+    }
     custom_objects = {
       stagingtest = {
         scopes = [

@@ -126,6 +126,7 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     explore_zra_monitoring_assistant_enabled = true
     suggested_assignees_all_groups = true
     custom_agents_sbp_v1_pricing_acknowledged = false
+    admin_copilot_entitled = true
     example_eap_tos_accepted = false
     example_eap_enabled = false
     explore_zra_monitoring_assistant_eap_tos_accepted = false
@@ -175,8 +176,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     advanced_action_flows_eap_enabled = false
     headless_platform_mcp_eap_tos_accepted = false
     headless_platform_mcp_eap_enabled = false
-    ai_agents_conversation_simulator_eap_tos_accepted = false
-    ai_agents_conversation_simulator_eap_enabled = false
+    zendesk_end_user_mcp_eap_tos_accepted = false
+    zendesk_end_user_mcp_eap_enabled = false
     bi_directional_slack_eap_tos_accepted = false
     bi_directional_slack_eap_enabled = false
     contact_center_realtime_translation_eap_tos_accepted = false
@@ -191,6 +192,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     saas_management_eap_enabled = false
     commerce_skills_non_shopify_eap_tos_accepted = false
     commerce_skills_non_shopify_eap_enabled = false
+    voice_copilot_auto_assist_eap_tos_accepted = false
+    voice_copilot_auto_assist_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -489,6 +492,7 @@ Please choose your issue below
   }
   messaging = {
     messaging_end_session = false
+    commerce_agent_enabled = false
   }
   it_asset_management = {
     enabled = true

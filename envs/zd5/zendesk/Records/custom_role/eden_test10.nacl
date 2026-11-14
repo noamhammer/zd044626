@@ -86,9 +86,25 @@ zendesk.custom_role eden_test10@s {
     view_audit_logs = false
     delete_brands = false
     execute_it_asset_management_actions = false
+    view_transaction_logs = false
     capacity_rules_access = "none"
     takeover_ai_agent_tickets = false
     modify_ai_agent_tickets = false
+    analytics = {
+      access = "full"
+      use_analyst_copilot = true
+      view_zra_anomaly_detection = true
+      view_zra_trending_topics = true
+      use_deep_exploration = true
+      use_ai_dashboard_builder = true
+      use_ai_dataset_builder = true
+      manage_custom_datasets = true
+      export_analytics_data = true
+      use_conversational_assistant = true
+      manage_custom_alerts = true
+      groups_ticket_access = "all"
+      brands_ticket_access = "all"
+    }
   }
   _alias = "eden test10"
 }
