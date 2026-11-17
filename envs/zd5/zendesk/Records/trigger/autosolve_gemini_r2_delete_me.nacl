@@ -1,0 +1,24 @@
+zendesk.trigger autosolve_gemini_r2_delete_me@s {
+  title = "autosolve gemini r2 - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "add_tags"
+      value = "x"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+  }
+  description = "Created by Gemini CLI"
+  raw_title = "autosolve gemini r2 - delete me"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "autosolve gemini r2 - delete me"
+}
