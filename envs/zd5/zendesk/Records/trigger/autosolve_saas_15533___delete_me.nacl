@@ -1,0 +1,24 @@
+zendesk.trigger autosolve_saas_15533___delete_me@s {
+  title = "autosolve SAAS-15533 - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "add_tags"
+      value = "x"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+  }
+  description = ""
+  raw_title = "autosolve SAAS-15533 - delete me"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "autosolve SAAS-15533 - delete me"
+}
