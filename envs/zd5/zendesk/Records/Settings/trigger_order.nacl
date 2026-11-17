@@ -80,6 +80,7 @@ zendesk.trigger_order {
       active = [
       ]
       inactive = [
+        zendesk.trigger.instance.autosolve_gemini_r3_delete_me@s,
       ]
     },
     {

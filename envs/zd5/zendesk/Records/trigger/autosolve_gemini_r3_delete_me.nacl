@@ -1,0 +1,23 @@
+zendesk.trigger autosolve_gemini_r3_delete_me@s {
+  title = "autosolve gemini r3 - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "add_tags"
+      value = "x"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+    any = []
+  }
+  category_id = zendesk.trigger_category.instance.Other
+  _alias = "autosolve gemini r3 - delete me"
+}
