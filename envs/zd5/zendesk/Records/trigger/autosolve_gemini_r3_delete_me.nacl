@@ -16,7 +16,8 @@ zendesk.trigger autosolve_gemini_r3_delete_me@s {
         value = "Create"
       },
     ]
-    any = []
+    any = [
+    ]
   }
   category_id = zendesk.trigger_category.instance.Other
   _alias = "autosolve gemini r3 - delete me"
