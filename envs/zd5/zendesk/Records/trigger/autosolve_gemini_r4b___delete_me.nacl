@@ -18,7 +18,8 @@ zendesk.trigger autosolve_gemini_r4b___delete_me {
         value = "Create"
       },
     ]
-    any = []
+    any = [
+    ]
   }
   description = "Inactive test trigger to add tag x on ticket creation"
   raw_title = "autosolve gemini r4b - delete me"
