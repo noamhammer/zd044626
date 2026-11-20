@@ -10,7 +10,8 @@ zendesk.trigger autosolve_codex_delete_me {
         value = "Create"
       },
     ]
-    any = []
+    any = [
+    ]
   }
   actions = [
     {
