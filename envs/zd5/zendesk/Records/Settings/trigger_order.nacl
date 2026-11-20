@@ -16,6 +16,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.HA___trigger___Email___set_Health_status_and_explanation_for_trigger@sbssbssbsssssss,
       ]
       inactive = [
+        zendesk.trigger.instance.autosolve_single_source_gemini_delete_me,
       ]
     },
     {

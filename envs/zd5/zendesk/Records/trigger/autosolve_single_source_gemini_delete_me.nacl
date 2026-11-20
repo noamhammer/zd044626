@@ -1,0 +1,24 @@
+zendesk.trigger autosolve_single_source_gemini_delete_me {
+  title = "autosolve single-source gemini - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "add_tags"
+      value = "x"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+  }
+  description = ""
+  raw_title = "autosolve single-source gemini - delete me"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "autosolve single-source gemini - delete me"
+}
