@@ -1,0 +1,21 @@
+zendesk.trigger autosolve_codex_delete_me {
+  title = "autosolve codex - delete me"
+  active = false
+  actions = [
+    {
+      field = "add_tags"
+      value = "x"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+    any = []
+  }
+  category_id = zendesk.trigger_category.instance.Field_Updates@s
+}
