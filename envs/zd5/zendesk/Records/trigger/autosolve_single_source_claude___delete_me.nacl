@@ -1,0 +1,24 @@
+zendesk.trigger autosolve_single_source_claude___delete_me@sbssbss {
+  title = "autosolve single-source claude - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.x,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+  }
+  raw_title = "autosolve single-source claude - delete me"
+  category_id = zendesk.trigger_category.instance.Other
+}

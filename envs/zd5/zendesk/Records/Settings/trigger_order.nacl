@@ -80,6 +80,7 @@ zendesk.trigger_order {
       active = [
       ]
       inactive = [
+        zendesk.trigger.instance.autosolve_single_source_claude___delete_me@sbssbss,
       ]
     },
     {
