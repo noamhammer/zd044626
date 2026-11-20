@@ -52,6 +52,7 @@ zendesk.trigger_order {
       active = [
       ]
       inactive = [
+        zendesk.trigger.instance.autosolve_codex_delete_me,
       ]
     },
     {
