@@ -15,7 +15,8 @@ zendesk.trigger autosolve_codex_delete_me {
         value = "Create"
       },
     ]
-    any = []
+    any = [
+    ]
   }
   category_id = zendesk.trigger_category.instance.Field_Updates@s
 }
