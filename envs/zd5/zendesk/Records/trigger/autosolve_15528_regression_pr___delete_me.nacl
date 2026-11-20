@@ -1,0 +1,24 @@
+zendesk.trigger autosolve_15528_regression_pr___delete_me@ssssbss {
+  title = "autosolve 15528 regression pr - delete me"
+  active = false
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.x,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+    ]
+  }
+  raw_title = "autosolve 15528 regression pr - delete me"
+  category_id = zendesk.trigger_category.instance.Other
+}

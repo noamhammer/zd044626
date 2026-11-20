@@ -80,6 +80,7 @@ zendesk.trigger_order {
       active = [
       ]
       inactive = [
+        zendesk.trigger.instance.autosolve_15528_regression_pr___delete_me@ssssbss,
       ]
     },
     {
