@@ -5,7 +5,7 @@ zendesk.trigger autosolve_15528_regression_main___delete_me@ssssbss {
   actions = [
     {
       field = "current_tags"
-      value = "x"
+      value = "x y"
     },
   ]
   conditions = {
