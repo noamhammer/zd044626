@@ -78,3 +78,7 @@ zendesk.tag x {
   id = "x"
   _alias = "x"
 }
+zendesk.tag y {
+  id = "y"
+  _alias = "y"
+}

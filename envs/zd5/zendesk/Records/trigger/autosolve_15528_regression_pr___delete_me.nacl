@@ -7,6 +7,7 @@ zendesk.trigger autosolve_15528_regression_pr___delete_me@ssssbss {
       field = "current_tags"
       value = [
         zendesk.tag.instance.x,
+        zendesk.tag.instance.y,
       ]
     },
   ]
